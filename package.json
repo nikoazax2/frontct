@@ -1,25 +1,35 @@
 {
-  "name": "frontct",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
-  },
-  "dependencies": {
-    "vue": "^3.2.13",
-    "vue-router": "^4.0.3"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "node-sass": "^7.0.1",
-    "sass-loader": "^12.6.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead",
-    "not ie 11"
-  ]
+    "name": "frontct",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build"
+    },
+    "browser": {
+        "fs": false,
+        "path": false,
+        "os": false
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "vue": "^3.2.13",
+        "vue-router": "^4.0.3"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-router": "~5.0.0",
+        "@vue/cli-service": "~5.0.0",
+        "node-sass": "^7.0.1",
+        "sass-loader": "^12.6.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead",
+        "not ie 11"
+    ],
+    "resolutions": {
+        "//": "See https://github.com/facebook/create-react-app/issues/11773",
+        "react-error-overlay": "6.0.9"
+    }
 }

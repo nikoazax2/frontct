@@ -1,11 +1,9 @@
 <template>
-    <div class="detail"> </div>
+    <div class="detail"></div>
 </template>
 
 <script>
-export default {
-    data() {},
-}
+export default {}
 </script>
 <style lang="scss">
 * {
